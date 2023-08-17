@@ -339,8 +339,8 @@ align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.networks-list a:hover svg,
-.networks-list a:focus svg{
+.networks-list a:hover,
+.networks-list a:focus{
     background-color: #404bbf;
 }
 
@@ -382,8 +382,8 @@ align-items: center;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.customers a:hover svg,
-.customers a:focus svg {
+.customers a:hover,
+.customers a:focus {
     border-color: #404bbf;
     color: #404bbf;
 }
@@ -469,8 +469,8 @@ align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.networks-footer a:hover svg,
-.networks-footer a:focus svg {
+.networks-footer a:hover,
+.networks-footer a:focus {
     background-color: #31d0aa;
 }
 
