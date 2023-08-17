@@ -339,8 +339,8 @@ align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.networks-list a:hover,
-.networks-list a:focus{
+.networks-link:hover,
+.networks-link:focus{
     background-color: #404bbf;
 }
 
@@ -382,8 +382,8 @@ align-items: center;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.customers a:hover,
-.customers a:focus {
+.customers-link:hover,
+.customers-link:focus {
     border-color: #404bbf;
     color: #404bbf;
 }
@@ -469,8 +469,8 @@ align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.networks-footer a:hover,
-.networks-footer a:focus {
+.networks-footer-link:hover,
+.networks-footer-link:focus {
     background-color: #31d0aa;
 }
 
@@ -626,7 +626,6 @@ align-items: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
-    position: relative;
     width: 408px;
     min-height: 584px;
     background-color: #FCFCFC;
